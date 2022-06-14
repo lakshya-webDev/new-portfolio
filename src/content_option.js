@@ -1,6 +1,6 @@
 const logotext = "Lakshya";
 const meta = {
-    title: "Lakshya Choudhary",
+    title: "Portfolio | Lakshya Choudhary",
     description: "I'm Lakshya Choudhary Full stack devloper, Currently working in Latitude Technolabs Pvt. Ltd., Ahembdabad.",
 };
 
