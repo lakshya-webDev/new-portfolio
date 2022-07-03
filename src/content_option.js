@@ -12,7 +12,7 @@ const introdata = {
         third: "Love to design best Website",
     },
     description: "Creative Web Designer, use to play with code to design the website for client based Projects as per the requirements",
-    your_img_url: "https://images.unsplash.com/photo-1514790193030-c89d266d5a9d",
+    your_img_url: "images/lakshya-choudhary-1.png",
 };
 
 const dataabout = {
@@ -113,68 +113,21 @@ const services = [{
         description: "An Open-Source E-Commerce Plugin For WordPress. It Is Designed For Small To Large-Sized Online Merchants Using WordPress",
     },
 ];
-
-const dataportfolio = [{
-        img: "https://picsum.photos/400/?grayscale",
-        desctiption: "Wordpress Website",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/800/?grayscale",
-        desctiption: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/?grayscale",
-        desctiption: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/600/?grayscale",
-        desctiption: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/300/?grayscale",
-        desctiption: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/700/?grayscale",
-        desctiption: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-
-    {
-        img: "https://picsum.photos/400/600/?grayscale",
-        desctiption: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/300/?grayscale",
-        desctiption: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/?grayscale",
-        desctiption: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/550/?grayscale",
-        desctiption: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/?grayscale",
-        desctiption: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/700/?grayscale",
-        desctiption: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
+  
+const dataportfolio = [  
+{description:"Barbarians", link:"https://barbarians.com", img:"/images/folio/barbarians.png"},
+{desctiption:"Shailza Toys",link:"https://shailzatoys.in",img:"/images/folio/portfolio-3.png"},
+{desctiption:"Sonakshi Indsutries",link:"https://sonakshiindsutries.com",img:"/images/folio/portfolio-2.png"},
+{desctiption:"Beauty & You",link:"https://beautyndyou.com",img:"/images/folio/portfolio-4.png"},
+{description:"Aggiler", link:"https://aggiler.com", img:"/images/folio/aggiler.png"},
+{desctiption:"Friends Bakery",link:"http://friendsbakeryrj27.com/",img:"/images/folio/portfolio-8.png"},
+{desctiption:"Saraglobal Design",link:"https://saraglobaldesign.com/saraglobaldesign",img:"/images/folio/portfolio-7.png"},
+{desctiption:"Vinsfertility",link:"https://vinsfertility.com/viona",img:"/images/folio/portfolio-9.png"},
+{description:"Faculty Pool", link:"#", img:"/images/folio/facultypool-landing-page.png"},
+{desctiption:"The Health Planet",link:"https://thehealthplanet.in",img:"/images/folio/portfolio-5.png"},
+{desctiption:"JaiLaxmi Land Con",link:"https://jailaxmiconstructions.com/",img:"/images/folio/portfolio-6.png"},
+{desctiption:"Pride IVF",link:"https://prideivf.com/",img:"/images/folio/portfolio-10.png"},
+{desctiption:"Happy Hemp |CBD Website",link:"https://gethappyhemp.com/",img:"/images/folio/portfolio-11.png"},
 ];
 
 const contactConfig = {

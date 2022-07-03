@@ -15,14 +15,17 @@
     position: relative;
     background: var(--secondary-color);
     padding: 6px;
-    border: 1px solid var(--secondary-color);
+    border: 1px solid var(--secondary-color);           
     transition: 0.3s ease;
     font-size: 0;
-    min-height: 300px;
+    max-height: 445px;
+    height: 100%;
+    overflow: hidden;
 }
 
 .po_item img {
     max-width: 100%;
+    filter: grayscale(100%);
 }
 
 .po_item .content {
