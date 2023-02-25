@@ -12,7 +12,7 @@ const introdata = {
         third: "Love to design best Website",
     },
     description: "Creative Web Designer, use to play with code to design the website for client based Projects as per the requirements",
-    your_img_url: "images/lakshya-choudhary-1.png",
+    your_img_url: "images/lakshya-choudhary-1.jpg",
 };
 
 const dataabout = {
