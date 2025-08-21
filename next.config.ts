@@ -28,7 +28,10 @@ const nextConfig: NextConfig = {
       {
         protocol: 'https',
         hostname: 'i.pravatar.cc',
-      },
+      },{
+        protocol: 'https',
+        hostname:'avatar.iran.liara.run'
+      }
     ],
   },
 }

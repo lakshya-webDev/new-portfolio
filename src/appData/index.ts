@@ -1,14 +1,20 @@
 // Data for portfolio
 import {
+  AzureIcon,
   ExpressjsIcon,
+  FigmaIcon,
+  FirebaseIcon,
   JavaScriptIcon,
+  JqueryIcon,
   NestjsIcon,
   NextjsIcon,
   NodejsIcon,
   ReactIcon,
+  SitecoreIcon,
   SocketIcon,
   TailwindCSS,
   TypescriptIcon,
+  WordpressIcon,
 } from '../utils/icons'
 
 // Project Data
@@ -97,6 +103,36 @@ export const serviceData = [
     title: 'Tailwind CSS Styling',
     shortDescription: 'Designing beautiful and responsive interfaces with Tailwind CSS.',
   },
+  {
+    icon: FirebaseIcon,
+    title: 'Firebase Development',
+    shortDescription: 'Building real-time applications with Firebase authentication, Firestore, and hosting.',
+  },
+  {
+    icon: AzureIcon,
+    title: 'Microsoft Azure',
+    shortDescription: 'Deploying, scaling, and managing cloud applications using Microsoft Azure services.',
+  },
+  {
+    icon: JqueryIcon,
+    title: 'jQuery Development',
+    shortDescription: 'Enhancing websites with lightweight, cross-browser interactivity using jQuery.',
+  },
+  {
+    icon: WordpressIcon,
+    title: 'WordPress Development',
+    shortDescription: 'Creating and customizing WordPress websites with themes, plugins, and WooCommerce.',
+  },
+  {
+    icon: FigmaIcon,
+    title: 'Figma Design',
+    shortDescription: 'Designing user interfaces and prototypes using Figma for a seamless user experience.',
+  },
+  {
+    icon: SitecoreIcon,
+    title: 'Sitecore',
+    shortDescription: 'Pulling out the content from Sitecore CMS and displaying it on the frontend.',
+  }
 ]
 
 // Skill List
@@ -126,23 +162,37 @@ export const skillList = [
     icon: ExpressjsIcon,
   },
   {
-    name: 'Nest.js',
-    icon: NestjsIcon,
+    name: 'Wordpress',
+    icon: WordpressIcon,
   },
   {
     name: 'Socket.io',
     icon: SocketIcon,
   },
+  {
+    name: 'Azure Services',
+    icon: AzureIcon,
+  },
+  {
+    name: 'Firebase',
+    icon: FirebaseIcon,
+  }, {
+    name: 'jQuery',
+    icon: JqueryIcon,
+  }
+  , {
+    name: 'Figma',
+    icon: FigmaIcon,
+  }, {
+    name: 'Sitecore',
+    icon: SitecoreIcon
+  }
 ]
 
 export const footerLinks = [
   { title: 'About', href: '#' },
   { title: 'Projects', href: '#projects' },
   { title: 'Testimonials', href: '#testimonials' },
-  {
-    title: 'Blogs',
-    href: '#blogs',
-  },
   {
     title: 'Services',
     href: '#services',
@@ -172,4 +222,4 @@ export const themes = [
   },
 ]
 
-export const languages = ['En', 'Es', 'Fr', 'De', 'Ru']
+export const languages = ['En', 'Hi']

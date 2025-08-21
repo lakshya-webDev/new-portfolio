@@ -1,0 +1,18 @@
+[
+  {
+  "name": "Shailza Gupta",
+  "title": "Founder of SheIVF",
+  "feedback": "Working with Lakshya has been a great experience. He consistently demonstrates deep expertise in Wordpress, and modern frontend technologies, while also managing backend services with efficiency. He has a strong eye for UI/UX and ensures the final product performs at the highest standards. A reliable developer who always meets deadlines.",
+  "image": "https://avatar.iran.liara.run/public/62",
+  "stars": 4.5,
+  "createdAt": "2023-01-01"
+},
+ {
+  "name": "Deepak Suthar",
+  "title": "Founder at Anant Systems",
+  "feedback": "Lakshya is a talented developer with a strong passion for clean, optimized, and reusable code. His knowledge of both frontend and backend makes him a valuable team player. I’ve seen him solve critical issues under tight deadlines while maintaining high-quality standards. He’s definitely someone I’d love to collaborate with again.",
+  "image": "https://avatar.iran.liara.run/public/2",
+  "stars": 4,
+  "createdAt": "2024-08-01"
+}
+]

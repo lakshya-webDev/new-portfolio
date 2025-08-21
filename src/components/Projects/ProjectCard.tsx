@@ -53,6 +53,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ data }) => {
             )}
           </ul>
         </div>
+        {cover &&(
         <figure className="flex justify-end overflow-hidden">
           <Image
             src={cover}
@@ -62,6 +63,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ data }) => {
             className="h-[80px] w-[150px] rounded-md object-cover shadow-[0px_1.66px_3.74px_-1.25px_#18274B1F]"
           />
         </figure>
+        )}
       </div>
 
       <div>

@@ -19,7 +19,7 @@ const TestimonialSection: React.FC<TestimonialSectionProps> = ({ testimonials })
         subtitle="Don't just take our word for it - see what actual users of our service have to say about their experience."
       />
 
-      <div className="hide-scrollbar my-8 flex gap-8 overflow-x-auto">
+      <div className="hide-scrollbar my-8 flex gap-8 overflow-x-auto justify-center">
         {testimonials.map((testimonial, idx) => (
           <TestimonialCard
             key={idx}

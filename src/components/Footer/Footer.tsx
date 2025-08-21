@@ -4,17 +4,17 @@ import Logo from '../Navbar/Logo'
 
 const Footer = () => {
   return (
-    <footer className="bg-secondary relative flex min-h-[560px] flex-col justify-between gap-20 overflow-hidden px-4 py-14 md:p-14">
+    <footer className="bg-secondary relative flex min-h-[560px] flex-col justify-between gap-20 overflow-hidden px-4 py-14 md:p-14 md:pb-0">
       <div className="relative z-20 grid grid-cols-1 items-start gap-20 md:grid-cols-2 md:gap-12">
         <div>
           <h5 className="mb-8 flex items-center gap-2">
             <Logo width={30} height={24} />
-            <span className="text-neutral text-lg font-medium">Logoipsum</span>
+            <span className="text-neutral text-lg font-medium">lakshya.webdev</span>
           </h5>
           <p className="text-tertiary-content">
-            The first free end-to-end analytics service for the site, designed to work with
-            enterprises of various levels and business segments.
+            I craft modern, scalable, and user-friendly digital solutions that empower businesses to grow faster and smarter.
           </p>
+
           <a
             href="#"
             className="text-neutral mt-4 inline-flex items-center gap-2 text-xs hover:underline">
@@ -35,8 +35,7 @@ const Footer = () => {
       </div>
 
       <div className="relative z-20 flex flex-col-reverse gap-20 md:grid md:grid-cols-2 md:gap-12">
-        <div className="grid grid-cols-2 gap-4">
-          <ul className="flex flex-col gap-4">
+          <ul className="flex gap-4">
             {socials.map((item, index) => (
               <li key={index} className="cursor-pointer bg-transparent">
                 <a
@@ -47,33 +46,27 @@ const Footer = () => {
               </li>
             ))}
           </ul>
-          <p className="text-tertiary-content flex flex-col self-end text-right text-xs md:text-center">
-            <span>© 2025 — Copyright</span>
-            <span>All Rights reserved</span>
-          </p>
-        </div>
-
         <div className="flex flex-col justify-between gap-[200px] md:flex-row md:gap-8">
           <div className="space-y-10 md:self-end">
             <div className="flex flex-col">
               <h5 className="text-neutral mb-4 text-lg font-medium">Contact Us</h5>
               <a
-                href="mailto:johndoe@gmail.com"
+                href="mailto:lakshya.webdev@gmail.com"
                 className="text-tertiary-content hover:text-neutral text-sm font-light transition-colors duration-300">
-                johndoe@gmail.com
+                lakshya.webdev@gmail.com
               </a>
               <a
-                href="tel:+92 3123456789"
+                href="tel:+91 7014949546"
                 className="text-tertiary-content hover:text-neutral text-sm font-light transition-colors duration-300">
-                +92 3123456789
+                +91 7014949546
               </a>
             </div>
             <div>
               <div>
                 <h5 className="text-neutral mb-4 text-lg font-medium">Location</h5>
                 <address className="text-tertiary-content flex flex-col text-sm font-light">
-                  <span>123456, Pakistan</span>
-                  <span>Karachi 22/5/8, Office 4</span>
+                  <span>H-Block S4/16 Near FCI college Sector-14</span>
+                  <span>Udaipur-313001 (Rajasthan), India</span>
                 </address>
               </div>
             </div>
@@ -92,12 +85,15 @@ const Footer = () => {
             </div>
           </div>
         </div>
-      </div>
-
+      </div>     
       <div className="bg-neutral/4 absolute top-1/2 -right-[40%] z-0 h-[120dvw] w-[120dvw] -translate-y-1/2 rounded-full p-14 md:top-0 md:-right-[255px] md:-bottom-[450px] md:size-[1030px] md:-translate-y-0 md:p-20">
         <div className="bg-neutral/4 size-full rounded-full p-14 md:p-20">
           <div className="bg-neutral/5 size-full rounded-full" />
         </div>
+      </div>
+      <div className="text-tertiary-content flex flex-col self-end text-center text-xs md:text-center border-gray-300 border-t w-full py-4">
+            <span>lakshya.webdev © 2025 — Copyright</span>
+            <span>All Rights reserved</span>
       </div>
     </footer>
   )

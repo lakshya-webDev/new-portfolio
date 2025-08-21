@@ -35,6 +35,7 @@ const ContactForm = () => {
         rows={7}
         required
       />
+      <input type="hidden" name="pageUrl" value={typeof window !== 'undefined' ? window.location.href : ''} />
       {!status?.success && <p className="my-2 font-light text-red-600">{status?.message}</p>}
       <Button text={isPending ? 'Submitting...' : 'Submit'} disabled={isPending} />
     </form>

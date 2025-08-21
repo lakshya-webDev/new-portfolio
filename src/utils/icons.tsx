@@ -13,6 +13,12 @@ import Star from '../assets/icons/star.svg'
 import TailwindCSS from '../assets/icons/tailwind-css.svg'
 import Timer from '../assets/icons/timer.svg'
 import TypescriptIcon from '../assets/icons/typescript.svg'
+import WordpressIcon from '../assets/icons/wordpress.svg'
+import AzureIcon from '../assets/icons/azure.svg'
+import FirebaseIcon from '../assets/icons/firebase.svg'
+import JqueryIcon from '../assets/icons/jquery.svg'
+import FigmaIcon from '../assets/icons/figma.svg'
+import SitecoreIcon from '../assets/icons/sitecore.svg'
 
 const PreviewIcon: FC<SVGProps<SVGSVGElement>> = (props) => {
   return (
@@ -336,4 +342,10 @@ export {
   Timer,
   TypescriptIcon,
   X,
+  WordpressIcon,
+  AzureIcon,
+  FirebaseIcon,
+  JqueryIcon,
+  FigmaIcon,
+  SitecoreIcon
 }

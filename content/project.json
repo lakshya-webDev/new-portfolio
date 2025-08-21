@@ -1,0 +1,98 @@
+[
+  {
+    "priority": 1,
+    "title": "WildWadi – Waterpark Booking System",
+    "shortDescription": "Developed a responsive booking platform with React.js & Node.js, integrated with Sitecore CMS for content management and NI Payment Gateway for secure transactions.",
+    "cover": "",
+    "type": "Professional",
+    "livePreview": "https://wildwadi.com/",
+    "siteAge": "2+ years old",
+    "visitors": "200+ Monthly Visitors",
+    "githubLink": "",
+    "earned": ""
+  },
+  {
+    "priority": 2,
+    "title": "Creations Cakery – Cake Ordering System",
+    "shortDescription": "Built a customizable cake ordering system with Tailwind CSS, including a call center dashboard for order tracking and CSV report generation.",
+    "cover": "",
+    "type": "Professional",
+    "livePreview": "https://creationscakery.com/",
+    "siteAge": "2 years old",
+    "visitors": "",
+    "githubLink": "",
+    "earned": ""
+  },
+  {
+    "priority": 3,
+    "title": "Margaux Pastry – Cake Ordering System",
+    "shortDescription": "Developed a user-friendly cake ordering interface for guests and call center agents with real-time order tracking and customer management.",
+    "cover": "",
+    "type": "Professional",
+    "livePreview": "https://margauxpastry.com/",
+    "siteAge": "1 year old",
+    "visitors": "500+ Monthly Visitors",
+    "githubLink": "",
+    "earned": ""
+  },
+  {
+    "priority": 4,
+    "title": "Salesforce Confirmation Email Page",
+    "shortDescription": "Created an SSO-authenticated email trigger system using Azure Node-SAML with custom email templates integrated with Salesforce.",
+    "cover": "",
+    "type": "Solo Project",
+    "livePreview": "https://example.com/salesforce-email",
+    "siteAge": "1 year old",
+    "visitors": "Restricted for internal use",
+    "githubLink": "",
+    "earned": ""
+  },
+  {
+    "priority": 5,
+    "title": "Guest Preference Page",
+    "shortDescription": "Developed a dynamic preference management page for Salesforce integration ensuring responsive design and seamless data rendering.",
+    "cover": "",
+    "type": "Solo Project",
+    "livePreview": "https://example.com/guest-preference",
+    "siteAge": "8 months old",
+    "visitors": "internal use only",
+    "githubLink": "",
+    "earned": ""
+  },
+  {
+    "priority": 6,
+    "title": "JClub – Luxury Fitness Club (Dubai)",
+    "shortDescription": "Managed Sitecore CMS integration for dynamic content updates, fixed UI issues, and optimized blog section performance.",
+    "cover": "",
+    "type": "Solo Project",
+    "livePreview": "https://thejclub.com/",
+    "siteAge": "2 years old",
+    "visitors": "200+ Monthly Visitors",
+    "githubLink": "",
+    "earned": ""
+  },
+  {
+    "priority": 7,
+    "title": "Jumeirah IO – Premium Membership Platform",
+    "shortDescription": "Led migration from Ionic to modern tech stack, developed landing pages, and RESTful APIs in Node.js with Sitecore integration.",
+    "cover": "",
+    "type": "Professional",
+    "livePreview": "https://example.com/",
+    "siteAge": "in development",
+    "visitors": "internal use only",
+    "githubLink": "",
+    "earned": ""
+  },
+  {
+    "priority": 8,
+    "title": "Anant Systems – IT Services Company",
+    "shortDescription": "Developed a responsive booking platform with Next.js & tailwind.css for an IT services company, enhancing user experience and performance.",
+    "cover": "",
+    "type": "Client Project",
+    "livePreview": "https://example.com/anant-systems",
+    "siteAge": "10+ years old",
+    "visitors": "200+ Monthly Visitors",
+    "githubLink": "",
+    "earned": ""
+  }
+]
