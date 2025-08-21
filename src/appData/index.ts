@@ -6,7 +6,6 @@ import {
   FirebaseIcon,
   JavaScriptIcon,
   JqueryIcon,
-  NestjsIcon,
   NextjsIcon,
   NodejsIcon,
   ReactIcon,
